@@ -51,8 +51,10 @@ export default function GeneratorPage(){
 				}}
 				>
 				<p>Your content</p>
-				</PureModal>;
-
+			</PureModal>;
+			<button onClick={() => setModal(!modal)}>
+				Toggle Modal
+			</button>
 
 			{/* Base colour input form */}
 			<h1>{formBaseColour}</h1>

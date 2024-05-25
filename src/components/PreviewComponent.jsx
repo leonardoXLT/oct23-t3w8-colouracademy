@@ -1,8 +1,8 @@
 import "../styles/PreviewCard.css"
 
-export function PreviewCard({colourEntry}){
+export function PreviewCard({colourEntry, textColour}){
 
-	return <div className="previewCard" style={{backgroundColor: colourEntry.hex}}>
+	return <div className="previewCard" style={{backgroundColor: colourEntry.hex, color: textColour}}>
 		<h1>Preview Content Card</h1>
 		<h5>Subtitle of card</h5>
 
